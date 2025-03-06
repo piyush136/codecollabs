@@ -8,7 +8,12 @@ CodeCollabs is a real-time collaborative code-sharing platform where users can c
 - **Join Rooms**: Users can join existing rooms using a unique room ID.
 - **Real-Time Code Sync**: Code changes made by one user in a room are instantly synced with all other users in that room.
 - **Private Rooms**: Only users with the room ID can join and collaborate in a specific room.
+--- 
+<img width='100%' src='https://github.com/piyush136/codecollabs/blob/main/screenshots/S1.png' />
 
+---
+<img width='100%' src='https://github.com/piyush136/codecollabs/blob/main/screenshots/S2.png' />
+---
 ## Tech Stack
 
 - **Backend**: Node.js
