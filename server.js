@@ -79,13 +79,13 @@ const server = http.createServer(app);
 // Enable CORS for WebSockets
 const io = new Server(server, {
     cors: {
-        origin: ["https://codecollabs.vercel.app/"],  // 🔹 Allow frontend to connect
+        origin: ["https://symphonious-bombolone-67f7b6.netlify.app/"],  // 🔹 Allow frontend to connect
         methods: ["GET", "POST"],
     }
 });
 
 // Apply CORS Middleware
-app.use(cors({ origin: "https://codecollabs.vercel.app/", credentials: true }));
+app.use(cors({ origin: "https://symphonious-bombolone-67f7b6.netlify.app/", credentials: true }));
 
 // Serve Static Files
 app.use(express.static("build"));
